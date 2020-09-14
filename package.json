@@ -1,0 +1,46 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "canvas-constructor": "^3.1.0",
+    "chalk": "^2.4.2",
+    "discord.js": "^11.6.4",
+    "express": "^4.16.4",
+    "jimp": "^0.6.8",
+    "m3u8-parser": "^4.4.3",
+    "m3u8stream": "^0.7.1",
+    "math-expression-evaluator": "^1.2.22",
+    "moment": "^2.28.0",
+    "moment-duration-format": "^2.2.2",
+    "node-google-translate-skidz": "^1.1.2",
+    "parse-time": "^0.1.4",
+    "quick.db": "^7.1.1",
+    "return-deep-diff": "^0.4.0",
+    "simple-youtube-api": "^5.2.1",
+    "snekfetch": "^4.0.4",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^3.2.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "devDependencies": {},
+  "author": ""
+}
